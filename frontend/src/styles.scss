@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@import "./theme.scss";
+
+:root
+{
+    --palette-background-black: #161925;
+    --palette-background-white: #fbfff1;
+    --palette-turqoise: #43f1e8;
+    --palette-orange: #fd7921;
+    --palette-text-black: #130303;
+
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+    background-color: black;
+    color: white;
+
+    font-size: 30px;
+
+
+}

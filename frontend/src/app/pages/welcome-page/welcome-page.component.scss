@@ -1,0 +1,269 @@
+/*This file contains styles used to style the main landing page which is the same in every view*/
+.landingPage
+{
+    /*background-color: red;*/
+    background-image: url(../../../assets/backgrounds/simpleshiny2.svg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-height: 700px;
+    height: 100vh;
+
+    font-weight: 400;
+}
+
+/*Header Styles*/
+header
+{
+    /*background-color: var(--palette-background-black);*/
+    /*background-color: red;*/
+    /*z-index: 1;*/
+
+    width: 100%;
+    min-height: 90px;
+    height: 8%;
+
+    /*position: fixed;*/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav
+{
+
+    /*align-self: flex-end;*/
+    /*background-color: coral;*/
+}
+
+.main-menu
+{
+    /*background-color: blue;*/
+
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 20px 30px 0;
+    padding: 0;
+
+    height: 100%;
+
+    font-size: 24px;
+    font-weight: 600;
+
+
+}
+
+.main-menu > li
+{
+    padding: 8px;
+}
+
+.main-menu > li > a
+{
+    position: relative;
+    text-decoration: none;
+    color: var(--palette-background-white);
+}
+
+.main-menu > li > a:after
+{
+    content: "";
+    position: absolute;
+    background-color: var(--palette-orange);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+
+    transition: width 200ms ease-in-out;
+}
+
+.main-menu > li > a:hover
+{
+    transition: color 250ms ease-in-out;
+    color: var(--palette-orange);
+}
+
+.main-menu > li > a:hover:after
+{
+    width: 100%;
+}
+
+.main-menu .view-switch > p
+{
+    font-size: 24px;
+    /*color: #43f1e8 !important;*/
+    color: darkgrey;
+    opacity: 70%;
+}
+
+
+.page-logo
+{
+    /*background-color: purple;*/
+    margin-left: 15px;
+    margin-top: -33px;
+}
+
+.page-logo > h4
+{
+    font-weight: 700;
+    font-size: 33px;
+
+    opacity: 95%;
+    color: var(--palette-background-white);
+}
+
+/*.page-logo > a > img*/
+/*{*/
+/*    margin-top: 7px;*/
+/*    width: 75px;*/
+/*}*/
+
+
+
+/*Section Styles*/
+
+section
+{
+    /*background-color: var(--palette-background-black);*/
+    /*background-color: blue;*/
+
+    min-height: 480px;
+    height: 94%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-content-container
+{
+    /*background-color: purple;*/
+
+    width: 70%;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello-message
+{
+    margin-top: 65px;
+    font-size: 100px;
+    color: var(--palette-orange);
+}
+
+.hello-description
+{
+    margin-top: -70px;
+    margin-bottom: 70px;
+
+    font-size: 32px;
+    font-weight: 400;
+
+    color: #fbfff1;
+}
+
+.welcome-btn
+{
+    width: 280px;
+    height: 80px;
+
+    background-color: var(--palette-background-black);
+    border: 3px solid var(--palette-orange);
+    border-radius: 20px;
+
+    color: var(--palette-orange);
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+
+    transition: box-shadow 250ms ease-in-out, color 250ms ease-in-out,
+    background-color 270ms ease-in-out;
+}
+
+.welcome-btn:hover
+{
+    box-shadow: 0 0 40px 40px var(--palette-orange) inset;
+    color: var(--palette-background-white);
+    background-color: var(--palette-orange);
+}
+
+/*Details Styles*/
+
+.details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    height: 6%;
+
+    /*background-color: var(--palette-background-black);*/
+    /*background-color: red;*/
+}
+
+
+.details > div
+{
+    height: 70%;
+}
+
+.twitter-btn
+{
+    margin-right: 10px;
+}
+
+.twitter-btn > a > img
+{
+    width: 40px;
+    opacity: 85%;
+    transition: opacity 150ms ease-in-out;
+}
+
+.twitter-btn > a > img:hover
+{
+    opacity: 100%;
+}
+
+.github-btn > a > img
+{
+    width: 95px;
+    opacity: 85%;
+    transition: opacity 150ms ease-in-out;
+}
+
+.github-btn > a > img:hover
+{
+    opacity: 100%;
+}
+
+.linkedin-btn
+{
+    margin-left: 10px;
+}
+
+.linkedin-btn > a > img
+{
+    width: 38px;
+    opacity: 85%;
+    transition: opacity 150ms ease-in-out;
+}
+
+.linkedin-btn > a > img:hover
+{
+    opacity: 100%;
+}

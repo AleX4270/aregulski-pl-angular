@@ -1,0 +1,51 @@
+footer
+{
+    min-height: 85px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /*background-color: var(--palette-background-black);*/
+
+    background-image: url(../../../../assets/backgrounds/simpleshiny.svg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: var(--palette-orange);
+
+    /*background-color: orange;*/
+}
+
+.copyright-message
+{
+    color: #bfbfbf;
+
+    font-weight: 600;
+    font-size: 23px;
+
+    margin-left: 50px;
+}
+
+.copyright-message > p
+{
+    margin: 0;
+}
+
+.contact-info, .mail
+{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.contact-info
+{
+    margin-right: 120px;
+}
+
+.mail
+{
+    color: var(--palette-background-white);
+
+    text-decoration: none;
+}

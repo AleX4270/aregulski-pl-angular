@@ -1,0 +1,77 @@
+/*My Experience Section Styles*/
+
+.experience-section
+{
+    min-height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*background-color: var(--palette-background-white);*/
+
+    background-image: url(../../../assets/backgrounds/overlay.svg);
+    background-size: cover;
+
+    color: var(--palette-text-black);
+}
+
+.experience-title
+{
+    margin-top: 35px;
+
+    color: var(--palette-orange);
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 70px;
+
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.2);
+}
+
+.experience-content
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: -25px;
+}
+
+.experience-content > div
+{
+    /*background-color: #43f1e8;*/
+    width: 85%;
+}
+
+.experience-content > div > h5
+{
+    font-size: 30px;
+}
+
+.experience-content > div > ul
+{
+    list-style-type: square;
+
+    font-size: 25px;
+}
+
+.experience-content > div .time-span
+{
+    font-size: 23px;
+    font-weight: 500;
+
+    margin-top: -40px;
+}
+
+.breaker-line
+{
+    border: 2px solid black;
+    margin-top: 25px;
+}
