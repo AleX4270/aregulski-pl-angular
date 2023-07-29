@@ -136,6 +136,10 @@
     width: 60px;
 }
 
+.description {
+    text-align: center;
+}
+
 //Large res
 @media only screen and (max-width: 1200px)
 {
@@ -170,7 +174,7 @@
     }
 
     .project-real .description
-    {
+    { 
         font-weight: 500;
         font-size: 27px;
     }

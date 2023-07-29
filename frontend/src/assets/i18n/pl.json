@@ -1,0 +1,35 @@
+{
+    "basic": {
+        "language": "EN",
+        "may": "Maj",
+        "july": "Lipiec",
+        "august": "Sierpień",
+        "october": "Październik",
+        "currently": "Obecnie"
+    },
+    "landingPage": {
+        "aboutMe": "O mnie",
+        "projects": "Projekty",
+        "experience": "Doświadczenie",
+        "welcomeMsg": "Cześć, Jestem Aleks",
+        "welcomeInfo": "Full-Stack Web Developer",
+        "knowMe": "Poznaj mnie lepiej!"
+    },
+    "aboutMe": {
+        "theBeginning": "Początek przygody",
+        "currentState": "Obecny stan",
+        "futurePlans": "Plany na przyszłość",
+        "theBeginningMsg": "Mój związek z programowaniem sięga czasów gimnazjum. Od tego czasu poruszałem się po wielu językach programowania, ale tym, który stał się podstawą mojej przygody jest język C++. ",
+        "currentStateMsg": "Jestem Junior Full-Stack Web Developerem. Zajmuję się rozwijaniem aplikacji biznesowych mających kluczowe znaczenie w zarządzaniu przedsiębiorstwem. Oprócz tego aktualnie studiuję informatykę.",
+        "futurePlansMsg": "Moim planem na przyszłość jest rozwinięcie się w dziedzinie tworzenia aplikacji mobilnych oraz oprogramowania, które jest maksymalnie proste i ułatwi użytkownikom ich codzienne życie."
+    },
+    "projects": {
+        "technologiesUsed": "Wykorzystane technologie",
+        "realMsg": "REAL to prosta gra 2D zaprojektowana specjalnie z okazji Brackeys Game Jam 2022.1 w jeden tydzień.",
+        "pongMsg": "Pong Mobile to replika klasycznej gry Pong. Projekt został opublikowany w Google Play Store.",
+        "chatAppMsg": "ChatApp to prosta replika czatu online o podstawowej funkcjonalności, zrealizowana w frameworku Laravel."
+    },
+    "experience": {
+        "apprentice": "Praktykant"
+    }
+}

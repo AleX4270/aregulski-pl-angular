@@ -1,6 +1,7 @@
 import { Component, ElementRef, AfterViewInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { ScrollService } from 'src/app/shared/service/scroll.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-about-page',
@@ -12,7 +13,8 @@ export class AboutPageComponent implements AfterViewInit, OnDestroy {
 
     constructor(
         private el: ElementRef,
-        private readonly scrollService: ScrollService
+        private readonly scrollService: ScrollService,
+        private translate: TranslateService
     ) {}
 
     ngAfterViewInit(): void {
