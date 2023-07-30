@@ -1,5 +1,46 @@
 {
     "basic": {
-        "language": "PL"
+        "language": "EN",
+        "may": "May",
+        "july": "July",
+        "august": "August",
+        "october": "October",
+        "currently": "Now"
+    },
+    "landingPage": {
+        "aboutMe": "About Me",
+        "projects": "Projects",
+        "experience": "Experience",
+        "welcomeMsg": "Hello, I'm Aleks",
+        "welcomeInfo": "Junior Full-Stack Web Developer",
+        "knowMe": "Get to know me better!"
+    },
+    "aboutMe": {
+        "theBeginning": "The beginning of an adventure",
+        "currentState": "The current state",
+        "futurePlans": "Future plans",
+        "theBeginningMsg": "My connection with programming dates back to middle school. Since then, I've dabbled in many programming languages, but the one that has become the basis of my adventure is the C++ language. ",
+        "currentStateMsg": "I am a Junior Full-Stack Web Developer. I am involved in developing applications that are critical to business management. In addition, I am currently studying computer science.",
+        "futurePlansMsg": "My plan for the future is to expand into the development of mobile applications and software that is as simple as possible and will make users' daily lives easier."
+    },
+    "projects": {
+        "technologiesUsed": "Technologies used",
+        "realMsg": "REAL is a simple 2D game specially designed for the Brackeys Game Jam 2022.1 in one week.",
+        "pongMsg": "Pong Mobile is a replica of the classic game Pong. The project was made using the Unity engine.",
+        "chatAppMsg": "ChatApp is a simple online chat replica with basic functionality, implemented in the Laravel framework."
+    },
+    "experience": {
+        "apprentice": "Apprentice",
+        "testScenarioApprentice": "Executing a test scenario and finding bugs in the application for managing customer requests and producing a corresponding summary.",
+        "bugFixesApprentice": "Fixing bugs found in the application using <b>Angular</b> and <b>NestJS</b> technologies, which resulted in improved application reception.",
+        "newFeaturesJuniorShort": "Adding new functionality to the ticket management application using <b>Angular</b> and <b>NestJS</b> technologies, which greatly simplified the process of finding and managing tickets.",
+        "bugFixesJuniorShort": "Fixing bugs in the store application made with <b>Angular</b> and <b>Yii2</b> technology. This resulted in better reception of the application.",
+        "bugFixesJunior": "Fixing bugs in the enterprise management application made in <b>Angular</b> and <b>Yii2</b> technologies. Changing selected elements of the application to newer solutions which allowed to manage processes in a better way.",
+        "touchAppProjectJunior": "Design and development of a touchscreen application made with <b>Angular</b> technology, which allowed the company's physical employees to communicate with the main internal application.",
+        "productionAdjustmentsJunior": "Customization of the production module to meet the client's needs. Changing existing solutions to newer ones and designing new functions from scratch.",
+        "documentProjectJunior": "Design according to the client's needs and creation of a module for managing the company's documentation, which will enable better circulation of documentation, and in the future will allow to completely abandon the form of paper documentation."
+    },
+    "footer": {
+        "contactMe": "Get in touch with me:"
     }
 }

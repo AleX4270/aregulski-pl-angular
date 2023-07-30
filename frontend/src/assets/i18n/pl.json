@@ -12,7 +12,7 @@
         "projects": "Projekty",
         "experience": "Doświadczenie",
         "welcomeMsg": "Cześć, Jestem Aleks",
-        "welcomeInfo": "Full-Stack Web Developer",
+        "welcomeInfo": "Junior Full-Stack Web Developer",
         "knowMe": "Poznaj mnie lepiej!"
     },
     "aboutMe": {
@@ -26,10 +26,21 @@
     "projects": {
         "technologiesUsed": "Wykorzystane technologie",
         "realMsg": "REAL to prosta gra 2D zaprojektowana specjalnie z okazji Brackeys Game Jam 2022.1 w jeden tydzień.",
-        "pongMsg": "Pong Mobile to replika klasycznej gry Pong. Projekt został opublikowany w Google Play Store.",
+        "pongMsg": "Pong Mobile to replika klasycznej gry Pong. Projekt został wykonany z użyciem silnika Unity.",
         "chatAppMsg": "ChatApp to prosta replika czatu online o podstawowej funkcjonalności, zrealizowana w frameworku Laravel."
     },
     "experience": {
-        "apprentice": "Praktykant"
+        "apprentice": "Praktykant",
+        "testScenarioApprentice": "Wykonywanie scenariusza testowego i znalezienie błędów w aplikacji do zarządzania zgłoszeniami klientów oraz sporządzenie odpowiedniego podsumowania.",
+        "bugFixesApprentice": "Naprawienie znalezionych błędów w aplikacji z użyciem technologii <b>Angular</b> oraz <b>NestJS</b> co poskutkowało poprawieniem odbioru aplikacji.",
+        "newFeaturesJuniorShort": "Dodanie nowej funkcjonalności do aplikacji zarządzania zgłoszeniami z użyciem technologii <b>Angular</b> oraz <b>NestJS</b> co znacznie uprościło proces wyszukiwania i zarządzania zgłoszeniami.",
+        "bugFixesJuniorShort": "Naprawienie błędów w aplikacji sklepu wykonanej w technologii <b>Angular</b> oraz <b>Yii2</b>. Poskutowało to lepszym odbiorem aplikacji przez klienta.",
+        "bugFixesJunior": "Naprawienie błędów w aplikacji do zarządzania przedsiębiorstwem wykonanej w technologiach <b>Angular</b> oraz <b>Yii2</b>. Zmiana wybranych elementów aplikacji na nowsze rozwiązania co pozwoliło w lepszy sposób zarządzać procesami.",
+        "touchAppProjectJunior": "Zaprojektowanie i stworzenie aplikacji na ekrany dotykowe wykonanej w technologii <b>Angular</b>, która pozwoliła pracownikom fizycznym przedsiębiorstwa na komunikację z główną aplikacją wewnętrzną.",
+        "productionAdjustmentsJunior": "Dostosowanie modułu produkcyjnego do potrzeb klienta. Zmiana już istniejących rozwiązań na nowsze oraz zaprojektowanie nowych funkcji od zera.",
+        "documentProjectJunior": "Zaprojektowanie zgodnie z potrzebami klienta i stworzenie modułu zarządzania dokumentacją przedsiębiorstwa co umożliwi lepszy obieg dokumentacji, a w przyszłości pozwoli na całkowite odejście od formy dokumentacji papierowej."
+    },
+    "footer": {
+        "contactMe": "Skontaktuj się ze mną:"
     }
 }
