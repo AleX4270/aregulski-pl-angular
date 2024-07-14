@@ -1,6 +1,5 @@
 /*My Projects Styles*/
-.my-projects-section
-{
+.my-projects-section {
     min-height: 840px;
 
     display: flex;
@@ -18,8 +17,7 @@
     /*background-color: orange;*/
 }
 
-.my-projects-title
-{
+.my-projects-title {
     margin-top: 35px;
 
     color: var(--palette-orange);
@@ -29,8 +27,7 @@
     text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.2);
 }
 
-.projects-browser
-{
+.projects-browser {
     /*background-color: purple;*/
     margin-top: 20px;
 
@@ -42,8 +39,7 @@
     justify-content: space-evenly;
 }
 
-.projects-browser > div
-{
+.projects-browser > div {
     /*background-color: blue;*/
 
     width: 25%;
@@ -63,14 +59,12 @@
     cursor: default;
 }
 
-.projects-browser > div:hover
-{
+.projects-browser > div:hover {
     transform: translateY(-7px);
 }
 
 /*Actual PROJECTS Styles*/
-.project-real .title
-{
+.project-real .title {
     color: var(--palette-orange);
 
     font-size: 60px;
@@ -79,8 +73,7 @@
     top: -30px;
 }
 
-.project-real .description
-{
+.project-real .description {
     font-weight: 500;
     font-size: 25px;
 
@@ -92,8 +85,7 @@
     color: var(--palette-background-white);
 }
 
-.project-real .technologies
-{
+.project-real .technologies {
     color: var(--palette-orange);
     font-weight: 600;
 
@@ -101,21 +93,18 @@
     top: -60px;
 }
 
-.project-real .technologies-icons
-{
+.project-real .technologies-icons {
     /*background-color: red;*/
 
     position: relative;
     top: -70px;
 }
 
-.project-real .technologies-icons > img
-{
+.project-real .technologies-icons > img {
     width: 50px;
 }
 
-.project-real .link-container
-{
+.project-real .link-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,13 +115,11 @@
     top: -25px;
 }
 
-.project-real .github-link
-{
+.project-real .github-link {
     width: 120px;
 }
 
-.project-real .website-link
-{
+.project-real .website-link {
     width: 60px;
 }
 
@@ -141,46 +128,33 @@
 }
 
 //Large res
-@media only screen and (max-width: 1200px)
-{
-    /*My Projects Styles*/
-
+@media only screen and (max-width: 1200px) {
     .projects-browser
     {
-        /*background-color: purple;*/
         margin-top: 20px;
-
         width: 95%;
         height: 80%;
-
         display: flex;
         flex-direction: column;
     }
 
-    .projects-browser > div
-    {
-        /*background-color: blue;*/
-
+    .projects-browser > div {
         width: 55%;
         min-width: 390px;
         height: 550px;
-
         margin-bottom: 75px;
     }
 
-    .project-real .title
-    {
+    .project-real .title {
         font-size: 65px;
     }
 
-    .project-real .description
-    { 
+    .project-real .description {
         font-weight: 500;
         font-size: 27px;
     }
 
-    .project-real .technologies
-    {
+    .project-real .technologies {
         font-size: 35px;
     }
 
@@ -191,22 +165,16 @@
 @media only screen and (max-width: 1400px) {
     /*My Projects Styles*/
 
-    .projects-browser > div
-    {
-        /*background-color: blue;*/
-
-        width: 25%;
+    .projects-browser > div {
+        width: 35%;
         min-width: 350px;
-        height: 550px;
+        height: 630px;
     }
 
-    .project-real .title
-    {
+    .project-real .title {
         color: var(--palette-orange);
-
         font-size: 50px;
         position: relative;
-
         top: -30px;
     }
 }

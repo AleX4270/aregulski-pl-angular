@@ -14,8 +14,8 @@ export class WelcomePageComponent {
         private readonly scrollService: ScrollService,
         private translate: TranslateService
     ) {
-        translate.setDefaultLang('pl'); //TODO Aleks: Change to en
-        this.translate.use('pl');
+        translate.setDefaultLang('en'); //TODO Aleks: Change to en
+        this.translate.use('en');
     }
 
     switchLanguage() {

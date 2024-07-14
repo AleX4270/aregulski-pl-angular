@@ -1,6 +1,6 @@
 {
     "basic": {
-        "language": "EN",
+        "language": "PL",
         "may": "May",
         "july": "July",
         "august": "August",
@@ -12,7 +12,7 @@
         "projects": "Projects",
         "experience": "Experience",
         "welcomeMsg": "Hello, I'm Aleks",
-        "welcomeInfo": "Junior Full-Stack Web Developer",
+        "welcomeInfo": "Full-Stack Web Developer",
         "knowMe": "Get to know me better!"
     },
     "aboutMe": {
@@ -20,7 +20,7 @@
         "currentState": "The current state",
         "futurePlans": "Future plans",
         "theBeginningMsg": "My connection with programming dates back to middle school. Since then, I've dabbled in many programming languages, but the one that has become the basis of my adventure is the C++ language. ",
-        "currentStateMsg": "I am a Junior Full-Stack Web Developer. I am involved in developing applications that are critical to business management. In addition, I am currently studying computer science.",
+        "currentStateMsg": "I am a Full-Stack Web Developer. I am involved in developing applications that are critical to business management. In addition, I am currently studying computer science.",
         "futurePlansMsg": "My plan for the future is to expand into the development of mobile applications and software that is as simple as possible and will make users' daily lives easier."
     },
     "projects": {
@@ -30,15 +30,30 @@
         "chatAppMsg": "ChatApp is a simple online chat replica with basic functionality, implemented in the Laravel framework."
     },
     "experience": {
-        "apprentice": "Apprentice",
-        "testScenarioApprentice": "Executing a test scenario and finding bugs in the application for managing customer requests and producing a corresponding summary.",
-        "bugFixesApprentice": "Fixing bugs found in the application using <b>Angular</b> and <b>NestJS</b> technologies, which resulted in improved application reception.",
-        "newFeaturesJuniorShort": "Adding new functionality to the ticket management application using <b>Angular</b> and <b>NestJS</b> technologies, which greatly simplified the process of finding and managing tickets.",
-        "bugFixesJuniorShort": "Fixing bugs in the store application made with <b>Angular</b> and <b>Yii2</b> technology. This resulted in better reception of the application.",
-        "bugFixesJunior": "Fixing bugs in the enterprise management application made in <b>Angular</b> and <b>Yii2</b> technologies. Changing selected elements of the application to newer solutions which allowed to manage processes in a better way.",
-        "touchAppProjectJunior": "Design and development of a touchscreen application made with <b>Angular</b> technology, which allowed the company's physical employees to communicate with the main internal application.",
-        "productionAdjustmentsJunior": "Customization of the production module to meet the client's needs. Changing existing solutions to newer ones and designing new functions from scratch.",
-        "documentProjectJunior": "Design according to the client's needs and creation of a module for managing the company's documentation, which will enable better circulation of documentation, and in the future will allow to completely abandon the form of paper documentation."
+        "fullStackDevLong": {
+            "usedTechnologies": "Working with <b>Yii2</b> (PHP 7.4 and 8.0) and <b>Angular</b> technologies.",
+            "appDeveloped": "Development of an advanced ERP system responsible for handling technological, manufacturing, reporting and warehousing processes for customer needs.",
+            "touchApp": "Creation of an application optimized for full-size touch screens that is a separate module of the ERP system responsible for handling and optimizing technological processes in production halls.",
+            "attachmentModuleApp": "Design and implementation of a system module designed for records management, including revision and meeting individual client needs.",
+            "apiModuleApp": "Create, optimize and coordinate the development of the system module responsible for exchanging data with an external system through an API.",
+            "appDocs": "Creation of project technical documentation for internal use and audit of the National Research and Development Center.",
+            "clientMeetings": "Organize and participate in meetings with the client to discuss industry issues, allowing the selection of appropriate technology solutions for the project under development."
+        },
+        "fullStackDevShort": {
+            "usedTechnologies": "Working with <b>Yii2</b> (PHP 7.4 and 8.0) and <b>Angular</b> and <b>NestJS</b> technologies.",
+            "appDeveloped": "Development of a system to track requests and manage project development.",
+            "featureDeveloped": "Introducing functionality to better sort and categorize individual requests.",
+            "secondAppDeveloped": "Development of a system that is an auction portal focusing on numismatics.",
+            "skillsAcquired": "Gain experience related to work organization and code management in a team."
+        },
+        "apprentice": {
+            "title": "Apprentice",
+            "usedTechnologies": "Working with <b>Yii2</b> (PHP 7.4 and 8.0) and <b>Angular</b> and <b>NestJS</b> technologies.",
+            "appTested": "Test the system based on a detailed test scenario prepared by the team.",
+            "bugsFixed": "Resolve errors found during application testing based on a prepared scenario.",
+            "skillsAcquired": "Gain experience in both frontend and backend architectures."
+        },
+        "fullStackDev": "Full-Stack Web Developer"
     },
     "footer": {
         "contactMe": "Get in touch with me:"
